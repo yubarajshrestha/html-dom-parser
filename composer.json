@@ -1,0 +1,26 @@
+{
+    "name": "yubarajshrestha/html-dom-parser",
+    "autoload": {
+        "psr-4": {
+            "YubarajShrestha\\HtmlDomParser\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yubaraj Shrestha",
+            "email": "companion.krish@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YubarajShrestha\\HtmlDomParser\\HtmlDomParserServiceProvider"
+            ],
+            "aliases": {
+                "HTMLDomParser": "YubarajShrestha\\HtmlDomParser\\Parser"
+            }
+        }
+    }
+}
