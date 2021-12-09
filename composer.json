@@ -1,5 +1,15 @@
 {
     "name": "yubarajshrestha/html-dom-parser",
+    "description": "This package a simple wrapper around Simple Html Dom Parser library. It provides a simple way to parse html and extract data from it.",
+    "keywords": [
+      "html",
+      "dom",
+      "parser",
+      "simple",
+      "wrapper",
+    "library",
+    "laravel"
+    ],
     "autoload": {
         "psr-4": {
             "YubarajShrestha\\HtmlDomParser\\": "src/"
@@ -8,10 +18,12 @@
     "authors": [
         {
             "name": "Yubaraj Shrestha",
-            "email": "companion.krish@gmail.com"
+            "email": "companion.krish@gmail.com",
+            "role": "Software Engineer",
+            "homepage": "https://linkedin.com/in/meyubaraj"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {},
     "extra": {
         "laravel": {
@@ -19,8 +31,10 @@
                 "YubarajShrestha\\HtmlDomParser\\HtmlDomParserServiceProvider"
             ],
             "aliases": {
-                "HTMLDomParser": "YubarajShrestha\\HtmlDomParser\\Parser"
+                "Parser": "YubarajShrestha\\HtmlDomParser\\Parser"
             }
         }
-    }
+    },
+    "license": "MIT",
+    "type": "library"
 }
